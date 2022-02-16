@@ -1,0 +1,204 @@
+:root{
+    --color-pink: #ff4c68;
+    --color-pink-light : #F06292;
+    --color-white : #fff;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav.navbar{
+    padding: 3% 10% 4.5rem;
+} 
+
+nav a{
+    font-size: 1rem;
+}
+nav ul{
+    flex: 1;
+    justify-content: end;
+}
+
+.nav-item{
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+#title{
+    background-color: var(--color-pink);
+    padding-bottom: 20px;
+}
+
+.container-fluid .introdution-header-title{
+    padding: 1% 10%;
+}
+
+.container-fluid{
+    padding-left: 0;
+}
+
+.introdution-header-title{
+    overflow: hidden;
+}
+
+.introdution-header-title h1{
+    font-family: 'Montserrat-Black',sans-serif;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 2;
+}
+
+button.button-down{
+    margin: 5% 3% 5% 0;
+}
+
+.image-name{
+    width:300px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* --------Features------- */
+
+section#features{
+    padding: 8% 12%;
+    background-color: var(--color-white);
+    position: relative;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1000px){ 
+    #title{
+        text-align: center;
+    }
+
+    .image-name{
+        position:static;
+        transform: rotate(0);
+    }
+    section#features{
+        position: static;
+        z-index: 0;
+    }
+
+}
+
+#features i{
+    font-size: 3rem;
+    color: var(--color-pink-light);
+}
+
+#features i:hover{
+    color: var(--color-pink) ;
+}
+
+.features-h3{
+    font-weight: 900;
+    padding: 10px 0;
+}
+/* -----------testimonials--------------- */
+
+#testimonials{
+    padding-bottom: 30px;
+    background-color: var(--color-pink);
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 8% 15%;
+    transition: transform .6s ease-in-out;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#testimonials img{
+    width: 8%;
+    margin: 15px 20px 20px 0;
+    border-radius: 100%;
+}
+
+/* ---------------press----------------- */
+
+#press{
+    background-color: var(--color-pink);
+    text-align: center;
+    padding: 2% 5%;
+}
+
+#press img{
+    padding: 20px;
+    width:25%;
+
+}
+
+/* -----------------Pricing-------------------- */
+
+#pricing{
+    margin: 6% 4%;
+    text-align: center;
+}
+
+#pricing .card{
+    margin: 15px;
+}
+
+.introdution-card{
+    padding-bottom: 20px;
+}
+
+/* -------------------CTA------------------- */
+
+#cta{
+    padding: 5% 10%;
+    background-color: var(--color-pink);
+    text-align: center;
+}
+
+#cta h3{
+    font-family: 'Montserrat-Black',sans-serif;
+    font-size: 3.5rem;
+    color: var(--color-white);
+}
+
+#cta button{
+    margin: 20px 20px 20px 0;
+    padding: 10px 15px 10px 5px;
+}
+
+#cta button i{
+    padding: 0 10px;
+}
+
+#footer{
+    padding: 10% 8%;
+    text-align: center;
+    background-color: var(--color-white);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 600;
+}
+
+#footer i{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#footer i:hover{
+    color: var(--color-pink);
+    cursor: pointer;
+}
